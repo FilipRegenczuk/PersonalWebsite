@@ -1,1 +1,10 @@
-#this is a test
+from flask import Flask
+
+app=Flask(__name__)
+
+@app.route('/')
+def home():
+    return "Content of website"
+
+if __name__ == "__main__":
+    app.run(debug=True)
