@@ -11,14 +11,14 @@ body {
 
 header {
   background-color: rgb(15, 78, 26);
-  height: 35px;
+  height: 64px;
   width: 100%;
   opacity: .8;
   margin-bottom: 10px;
 }
 
 header h1.logo {
-  margin: 0;
+  margin: 1;
   font-size: 1.7em;
   color: #fff;
   float: left;
@@ -34,7 +34,7 @@ header h1.logo:hover {
  */
 
 .container {
-  width: 1400px;
+  width: 1200px;
   margin: 0 auto;
 }
 
