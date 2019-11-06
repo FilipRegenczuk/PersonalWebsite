@@ -10,7 +10,7 @@ body {
   background-color: rgb(224, 224, 224)
 }
 
-/* The header area */
+/* Header area */
 .header {
   margin: 0;
   padding: 30px;
@@ -24,7 +24,7 @@ body {
 }
 
 
-/* The navigation bar */
+/* Navigation bar */
 .navigationBar {
   overflow: hidden;
   background-color: rgb(58, 58, 58);
@@ -42,4 +42,30 @@ body {
 .navigationBar a:hover {
   background-color: rgb(100, 100, 100);
   color: black;
+}
+
+/* Columns with main content */
+/* Main column (left) */
+.leftColumn {
+  float: left;
+  width: 75%;
+}
+
+.rightColumn {
+  float: left;
+  width: 25%;
+  padding-left: 20px;
+}
+
+/* Card effect for articles */
+.card {
+  background-color: white;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+.columns:after {
+  content: "";
+  display: table;
+  clear: both;
 }
