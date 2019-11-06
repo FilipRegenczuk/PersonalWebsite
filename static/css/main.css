@@ -3,10 +3,10 @@
 }
 
 body {
-  margin: 0;
-  padding: 0;
+  padding: 10px;
   font-family: Arial;
   color: rgb(0, 0, 0);
+  background-color: rgb(200, 200, 200)
 }
 
 /*
@@ -14,11 +14,7 @@ body {
  */
 
 header {
-  background-color: rgb(15, 78, 26);
-  height: 64px;
-  width: 100%;
-  opacity: .8;
-  margin-bottom: 10px;
+  
 }
 
 header h1.logo {
