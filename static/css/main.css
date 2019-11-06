@@ -3,29 +3,25 @@
 }
 
 body {
-  padding: 10px;
+  margin: 0;
+  padding: 0;
   font-family: Arial;
   color: rgb(0, 0, 0);
-  background-color: rgb(200, 200, 200)
+  background-color: rgb(224, 224, 224)
 }
 
-/*
- * Formatting the header area
- */
-
-header {
-  
+/* The header area */
+.header {
+  margin: 0;
+  padding: 30px;
+  text-align: center;
+  background: rgb(75, 160, 90)
 }
 
-header h1.logo {
-  margin: 1;
-  font-size: 1.7em;
-  color: #fff;
-  float: left;
+.header h1.logo {
+  font-size: 50px;
+  color: rgb(0, 0, 0);
 }
 
-header h1.logo:hover {
-  color: #fff;
-  text-decoration: none;
-}
+
 
