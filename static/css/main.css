@@ -69,3 +69,11 @@ body {
   display: table;
   clear: both;
 }
+
+/* Footer */
+.footer {
+  padding: 20px;
+  text-align: center;
+  background: rgb(117, 117, 117);
+  margin-top: 20px;
+}
