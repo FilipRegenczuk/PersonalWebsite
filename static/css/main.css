@@ -43,6 +43,7 @@ body {
 .navigationBar a:hover {
   background-color: rgb(100, 100, 100);
   color: black;
+  text-decoration: none;
 }
 
 /* Columns with main content */
@@ -74,8 +75,12 @@ body {
   padding-bottom: 20px;
 }
 
-a:link, a:visited, a:hover{
+a:link, a:visited {
   text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
 }
 
 .columns:after {
@@ -86,9 +91,9 @@ a:link, a:visited, a:hover{
 
 /* Footer */
 .footer {
-  padding: 5px;
+  padding: 20px;
   text-align: center;
-  background: rgb(50, 104, 74);
+  background: rgb(167, 167, 167);
   margin-top: 20px;
 }
 
