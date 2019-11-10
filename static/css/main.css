@@ -51,12 +51,14 @@ body {
 .leftColumn {
   float: left;
   width: 75%;
+  padding-left: 20px;
 }
 
 .rightColumn {
   float: left;
   width: 25%;
   padding-left: 20px;
+  padding-right: 20px;
 }
 
 .oneColumn {
