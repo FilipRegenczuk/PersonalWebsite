@@ -77,11 +77,12 @@ body {
 
 .authorImage {
   background-image: url("author_image.PNG");
-  float: right;
+  border: 1px solid black;
+  float: left;
   width: 149px;
   height: 235px;
-  margin-right: 15px;
-  padding-bottom: 20px;
+  margin-right: 35px;
+
 }
 
 a:link, a:visited {
